@@ -1,11 +1,11 @@
-print("Hello World!!")
+print("Hello World!")
 
-var myVariable = 42
-print(myVariable)
-myVariable = 50
-print(myVariable)
+var myVar1 = 3
+print(myVar1)
 
-var var1 = 1
-var var2 = 3
-var a = var1 + var2
-print(a)
+myVar1 = 5
+print(myVar1)
+
+var myVar2 = 6
+var plus = myVar1 + myVar2
+print(plus)
