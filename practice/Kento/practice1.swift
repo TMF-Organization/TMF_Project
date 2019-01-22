@@ -6,6 +6,6 @@ print(myVar1)
 myVar1 = 5
 print(myVar1)
 
-var myVar2 = 6
+var myVar2 = 7
 var plus = myVar1 + myVar2
 print(plus)
