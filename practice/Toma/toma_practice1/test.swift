@@ -40,4 +40,25 @@ Double quotes (\") can appear without being escaped.
 I still have \(apples + oranges) pieces of fruit.
 """
 
-print(quotation)
+var optionalString: String? = "Hello"
+// print(optionalString == nil)
+// Prints "false"
+
+var optionalName: String? = "John Appleseed"
+var greeting = "Hello!"
+if let name = optionalName {
+    greeting = "Hello, \(name)"
+}
+// print(greeting)
+
+let vegetable = "red pepper"
+switch vegetable {
+case "celery":
+    print("Add some raisins and make ants on a log.")
+case "cucumber", "watercress":
+    print("That would make a good tea sandwich.")
+case let x where x.hasSuffix("pepper"):
+    print("Is it a spicy \(x)?")
+default:
+    print("Everything tastes good in soup.")
+}
