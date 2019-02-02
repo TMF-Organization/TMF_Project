@@ -1,3 +1,8 @@
 # test_project
+ルンゲクッタ法で減衰振動の数値計算をした．
+数値計算方法の練習ではないので詳しい説明は省いて結果のみ載せる．
 
-A description of this package.
+## result
+![結果のグラフ．]{./test.png}
+
+正しそう．
