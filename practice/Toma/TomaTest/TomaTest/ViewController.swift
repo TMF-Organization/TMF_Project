@@ -20,7 +20,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         let image = UIImage(named:"download.jpg")
         image_view.image = image
-        label.lineBreakMode = .byWordWrapping
         label.text = "10回に1回不適切な発言をするドラえもん"
         conv.text = "僕はドラえもんだよ。一緒にお話しよう！"
 
