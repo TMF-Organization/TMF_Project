@@ -1,0 +1,36 @@
+Arguments: 
+  /Users/Toma/.pyenv/versions/anaconda3-5.0.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js add v1.3.2
+
+PATH: 
+  /Users/Toma/.pyenv/versions/anaconda3-5.0.0/bin:/Users/Toma/.pyenv/libexec:/Users/Toma/.pyenv/plugins/python-build/bin:/Users/Toma/.pyenv/plugins/pyenv-virtualenv/bin:/Users/Toma/.pyenv/plugins/pyenv-update/bin:/Users/Toma/.pyenv/plugins/pyenv-installer/bin:/Users/Toma/.pyenv/plugins/pyenv-doctor/bin:/Users/Toma/.pyenv/plugins/pyenv-virtualenv/shims:/Users/Toma/.pyenv/shims:/Users/Toma/anaconda2/bin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/opt/X11/bin:/Applications/TeXLive/Library/texlive/2016/bin/x86_64-darwin:/Applications/TeXLive/Library/mactexaddons/bin:/Users/Toma/.pyenv/bin:/Users/Toma/.fzf/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/v1.3.2: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:66255:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:129397:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130369:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:130291:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
